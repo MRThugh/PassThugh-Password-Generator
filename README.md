@@ -53,5 +53,5 @@ A dark-themed, neon-glow password generator designed for humans who love style *
 
 1. **Clone this repo:**
    ```bash
-   git clone https://github.com/your-username/PassThugh-Password-Generator.git
+   git clone https://mrthugh.github.io/PassThugh-Password-Generator/
    cd PassThugh-Password-Generator
