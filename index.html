@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PassThugh - Secure Password Generator</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <h1>PassThugh</h1>
+    <p class="subtitle">Secure Password Generator</p>
+
+    <div class="card">
+      <label for="length">Password Length: <span id="length-value">16</span></label>
+      <input type="range" id="length" min="6" max="64" value="16" />
+
+      <div class="options">
+        <label><input type="checkbox" id="uppercase" checked /> Include uppercase letters</label>
+        <label><input type="checkbox" id="lowercase" checked /> Include lowercase letters</label>
+        <label><input type="checkbox" id="numbers" checked /> Include numbers</label>
+        <label><input type="checkbox" id="symbols" /> Include symbols</label>
+      </div>
+
+      <button id="generate">Generate Password</button>
+
+      <div class="output">
+        <input type="text" id="password" readonly />
+        <button id="copy">Copy</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
